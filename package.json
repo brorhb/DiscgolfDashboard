@@ -1,0 +1,24 @@
+{
+  "name": "discgolfdashboard",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "budo index.js:bundle.js -d www --live -p 9999 -- -t vueify"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "browserify": "^16.2.2",
+    "budo": "^11.3.2",
+    "envify": "^4.1.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vueify": "^9.4.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.2.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
